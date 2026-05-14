@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="使用 Kenney CC0 素材制作的单机网页游戏合集：射击、平台跳跃、坦克、赛车、三消与记忆牌。"
+    />
+    <title>Kenney 单机网页游戏合集</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2308111f'/%3E%3Cpath d='M18 47 32 8l14 39-14-8-14 8Z' fill='%234ee7ff'/%3E%3C/svg%3E" />
+    <link rel="preload" href="./assets/kenney/ui-pack-sci-fi/kenney-future.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="返回游戏首页">
+        <span class="brand__mark">K</span>
+        <span>
+          <strong>Kenney Arcade</strong>
+          <small>单机网页游戏合集</small>
+        </span>
+      </a>
+      <nav class="top-actions" aria-label="站点操作">
+        <button id="sound-toggle" class="ghost-button" type="button" aria-pressed="false">声音：开</button>
+        <a class="ghost-button" href="./assets/kenney/LICENSES.md" target="_blank" rel="noreferrer">素材许可</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <div class="hero">
+          <p class="eyebrow">CC0 素材 · Canvas 2D · GitHub Pages</p>
+          <h1>选择一个游戏，马上开玩。</h1>
+          <p>
+            六款无需联网服务器的小游戏，所有美术素材来自
+            <a href="https://kenney.nl/assets" target="_blank" rel="noreferrer">Kenney.nl</a>。
+            进入游戏时会按需加载资源，并显示实时进度。
+          </p>
+        </div>
+        <div id="game-grid" class="game-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="game-shell" class="game-shell is-hidden" aria-label="游戏区域">
+        <div class="shell-top">
+          <button id="back-home" class="ghost-button" type="button">← 返回首页</button>
+          <div>
+            <h2 id="game-title">游戏</h2>
+            <p id="game-subtitle"></p>
+          </div>
+          <div class="shell-controls">
+            <button id="pause-game" class="ghost-button" type="button">暂停</button>
+            <button id="restart-game" class="primary-button" type="button">重新开始</button>
+          </div>
+        </div>
+
+        <div class="play-layout">
+          <div class="canvas-wrap">
+            <canvas id="game-canvas" width="960" height="540" tabindex="0" aria-label="游戏画布"></canvas>
+            <div id="loading-overlay" class="loading-overlay is-hidden" role="status" aria-live="polite">
+              <div class="loader-panel">
+                <p class="eyebrow">正在加载游戏资源</p>
+                <h3 id="loading-title">加载中...</h3>
+                <div class="progress-shell">
+                  <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <p id="progress-text">0%</p>
+                <p id="loading-detail" class="loading-detail"></p>
+                <button id="retry-load" class="primary-button is-hidden" type="button">重试加载</button>
+              </div>
+            </div>
+          </div>
+          <aside class="info-panel">
+            <div id="hud" class="hud"></div>
+            <h3>操作说明</h3>
+            <p id="control-help"></p>
+            <h3>目标</h3>
+            <p id="goal-help"></p>
+            <div id="touch-controls" class="touch-controls" aria-label="触摸控制">
+              <button data-virtual-key="ArrowLeft" aria-label="左">←</button>
+              <button data-virtual-key="ArrowUp" aria-label="上或跳跃">↑</button>
+              <button data-virtual-key="ArrowRight" aria-label="右">→</button>
+              <button data-virtual-key="Space" aria-label="动作">动作</button>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Made for GitHub Pages.</span>
+      <span>Assets © Kenney, CC0 1.0 Universal.</span>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

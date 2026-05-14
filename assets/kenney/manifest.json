@@ -1,0 +1,415 @@
+{
+  "assets": {
+    "space.bg": {
+      "path": "assets/kenney/space-shooter-remastered/bg-dark-purple.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.player": {
+      "path": "assets/kenney/space-shooter-remastered/player-ship-blue.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.enemy.black": {
+      "path": "assets/kenney/space-shooter-remastered/enemy-black-1.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.enemy.red": {
+      "path": "assets/kenney/space-shooter-remastered/enemy-red-3.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.meteor.brown": {
+      "path": "assets/kenney/space-shooter-remastered/meteor-brown-big-1.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.meteor.grey": {
+      "path": "assets/kenney/space-shooter-remastered/meteor-grey-big-2.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.laser": {
+      "path": "assets/kenney/space-shooter-remastered/laser-blue-01.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.power.bolt": {
+      "path": "assets/kenney/space-shooter-remastered/power-bolt.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.power.shield": {
+      "path": "assets/kenney/space-shooter-remastered/power-shield.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.star.gold": {
+      "path": "assets/kenney/space-shooter-remastered/star-gold.png",
+      "kind": "image",
+      "pack": "space-shooter-remastered"
+    },
+    "space.sfx.laser": {
+      "path": "assets/kenney/space-shooter-remastered/sfx-laser.ogg",
+      "kind": "audio",
+      "pack": "space-shooter-remastered"
+    },
+    "space.sfx.score": {
+      "path": "assets/kenney/space-shooter-remastered/sfx-score.ogg",
+      "kind": "audio",
+      "pack": "space-shooter-remastered"
+    },
+    "space.sfx.lose": {
+      "path": "assets/kenney/space-shooter-remastered/sfx-lose.ogg",
+      "kind": "audio",
+      "pack": "space-shooter-remastered"
+    },
+    "platform.player.stand": {
+      "path": "assets/kenney/platformer-art-deluxe/player-stand.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.player.jump": {
+      "path": "assets/kenney/platformer-art-deluxe/player-jump.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.player.walk1": {
+      "path": "assets/kenney/platformer-art-deluxe/player-walk-01.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.player.walk2": {
+      "path": "assets/kenney/platformer-art-deluxe/player-walk-05.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.player.walk3": {
+      "path": "assets/kenney/platformer-art-deluxe/player-walk-09.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.tile.grass.mid": {
+      "path": "assets/kenney/platformer-art-deluxe/tile-grass-mid.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.tile.grass.center": {
+      "path": "assets/kenney/platformer-art-deluxe/tile-grass-center.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.tile.grass.left": {
+      "path": "assets/kenney/platformer-art-deluxe/tile-grass-left.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.tile.grass.right": {
+      "path": "assets/kenney/platformer-art-deluxe/tile-grass-right.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.tile.dirt": {
+      "path": "assets/kenney/platformer-art-deluxe/tile-dirt-mid.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.coin": {
+      "path": "assets/kenney/platformer-art-deluxe/coin-gold.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.gem.blue": {
+      "path": "assets/kenney/platformer-art-deluxe/gem-blue.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.gem.green": {
+      "path": "assets/kenney/platformer-art-deluxe/gem-green.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.flag": {
+      "path": "assets/kenney/platformer-art-deluxe/flag-yellow.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.spikes": {
+      "path": "assets/kenney/platformer-art-deluxe/spikes.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.cloud": {
+      "path": "assets/kenney/platformer-art-deluxe/cloud-1.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.enemy.slime": {
+      "path": "assets/kenney/platformer-art-deluxe/slime.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "platform.enemy.slime.walk": {
+      "path": "assets/kenney/platformer-art-deluxe/slime-walk.png",
+      "kind": "image",
+      "pack": "platformer-art-deluxe"
+    },
+    "tank.player": {
+      "path": "assets/kenney/top-down-tanks-remastered/tank-blue.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.enemy.red": {
+      "path": "assets/kenney/top-down-tanks-remastered/tank-red.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.enemy.green": {
+      "path": "assets/kenney/top-down-tanks-remastered/tank-green.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.enemy.dark": {
+      "path": "assets/kenney/top-down-tanks-remastered/tank-dark.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.bullet.blue": {
+      "path": "assets/kenney/top-down-tanks-remastered/bullet-blue.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.bullet.red": {
+      "path": "assets/kenney/top-down-tanks-remastered/bullet-red.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.tile.grass": {
+      "path": "assets/kenney/top-down-tanks-remastered/tile-grass-1.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.crate": {
+      "path": "assets/kenney/top-down-tanks-remastered/crate-wood.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.barrel": {
+      "path": "assets/kenney/top-down-tanks-remastered/barrel-red-top.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.sandbag": {
+      "path": "assets/kenney/top-down-tanks-remastered/sandbag-beige.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "tank.explosion": {
+      "path": "assets/kenney/top-down-tanks-remastered/explosion-1.png",
+      "kind": "image",
+      "pack": "top-down-tanks-remastered"
+    },
+    "racer.car.red": {
+      "path": "assets/kenney/racing-pack/car-red-1.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.car.blue": {
+      "path": "assets/kenney/racing-pack/car-blue-1.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.road.straight": {
+      "path": "assets/kenney/racing-pack/road-asphalt-22.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.road.corner": {
+      "path": "assets/kenney/racing-pack/road-asphalt-01.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.cone": {
+      "path": "assets/kenney/racing-pack/cone-straight.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.oil": {
+      "path": "assets/kenney/racing-pack/oil.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.barrier": {
+      "path": "assets/kenney/racing-pack/barrier-red.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "racer.tree": {
+      "path": "assets/kenney/racing-pack/tree-small.png",
+      "kind": "image",
+      "pack": "racing-pack"
+    },
+    "match.back": {
+      "path": "assets/kenney/puzzle-pack-2/back-tile-05.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.blue": {
+      "path": "assets/kenney/puzzle-pack-2/tile-blue-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.green": {
+      "path": "assets/kenney/puzzle-pack-2/tile-green-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.red": {
+      "path": "assets/kenney/puzzle-pack-2/tile-red-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.yellow": {
+      "path": "assets/kenney/puzzle-pack-2/tile-yellow-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.orange": {
+      "path": "assets/kenney/puzzle-pack-2/tile-orange-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.pink": {
+      "path": "assets/kenney/puzzle-pack-2/tile-pink-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "match.coin": {
+      "path": "assets/kenney/puzzle-pack-2/coin-01.png",
+      "kind": "image",
+      "pack": "puzzle-pack-2"
+    },
+    "memory.back": {
+      "path": "assets/kenney/playing-cards-pack/card-back.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.hearts.a": {
+      "path": "assets/kenney/playing-cards-pack/card-hearts-a.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.hearts.k": {
+      "path": "assets/kenney/playing-cards-pack/card-hearts-k.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.diamonds.q": {
+      "path": "assets/kenney/playing-cards-pack/card-diamonds-q.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.diamonds.10": {
+      "path": "assets/kenney/playing-cards-pack/card-diamonds-10.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.spades.k": {
+      "path": "assets/kenney/playing-cards-pack/card-spades-k.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.spades.07": {
+      "path": "assets/kenney/playing-cards-pack/card-spades-07.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.clubs.02": {
+      "path": "assets/kenney/playing-cards-pack/card-clubs-02.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.clubs.j": {
+      "path": "assets/kenney/playing-cards-pack/card-clubs-j.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.joker.red": {
+      "path": "assets/kenney/playing-cards-pack/card-joker-red.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "memory.joker.black": {
+      "path": "assets/kenney/playing-cards-pack/card-joker-black.png",
+      "kind": "image",
+      "pack": "playing-cards-pack"
+    },
+    "ui.font.future": {
+      "path": "assets/kenney/ui-pack-sci-fi/kenney-future.ttf",
+      "kind": "font",
+      "pack": "ui-pack-sci-fi"
+    },
+    "ui.bar": {
+      "path": "assets/kenney/ui-pack-sci-fi/bar-round-gloss-large.png",
+      "kind": "image",
+      "pack": "ui-pack-sci-fi"
+    },
+    "ui.button": {
+      "path": "assets/kenney/ui-pack-sci-fi/button-header-large.png",
+      "kind": "image",
+      "pack": "ui-pack-sci-fi"
+    }
+  },
+  "packs": {
+    "space-shooter-remastered": {
+      "title": "Space Shooter Remastered",
+      "page": "https://kenney.nl/assets/space-shooter-remastered",
+      "download": "https://kenney.nl/media/pages/assets/space-shooter-remastered/c1af063983-1774771931/kenney_space-shooter-remastered.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    },
+    "platformer-art-deluxe": {
+      "title": "Platformer Art Deluxe",
+      "page": "https://kenney.nl/assets/platformer-art-deluxe",
+      "download": "https://kenney.nl/media/pages/assets/platformer-art-deluxe/749ae05a41-1677696393/kenney_platformer-art-deluxe.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    },
+    "top-down-tanks-remastered": {
+      "title": "Top-down Tanks Remastered",
+      "page": "https://kenney.nl/assets/top-down-tanks-remastered",
+      "download": "https://kenney.nl/media/pages/assets/top-down-tanks-remastered/bf8a4ac6dc-1774771973/kenney_top-down-tanks-remastered.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    },
+    "racing-pack": {
+      "title": "Racing Pack",
+      "page": "https://kenney.nl/assets/racing-pack",
+      "download": "https://kenney.nl/media/pages/assets/racing-pack/b27a2ace7a-1677662443/kenney_racing-pack.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    },
+    "puzzle-pack-2": {
+      "title": "Puzzle Pack 2",
+      "page": "https://kenney.nl/assets/puzzle-pack-2",
+      "download": "https://kenney.nl/media/pages/assets/puzzle-pack-2/848ff5c698-1677667476/kenney_puzzle-pack-2.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    },
+    "playing-cards-pack": {
+      "title": "Playing Cards Pack",
+      "page": "https://kenney.nl/assets/playing-cards-pack",
+      "download": "https://kenney.nl/media/pages/assets/playing-cards-pack/08ea695cb6-1677495915/kenney_playing-cards-pack.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    },
+    "ui-pack-sci-fi": {
+      "title": "UI Pack - Sci-Fi",
+      "page": "https://kenney.nl/assets/ui-pack-sci-fi",
+      "download": "https://kenney.nl/media/pages/assets/ui-pack-sci-fi/d83f166279-1724181109/kenney_ui-pack-space-expansion.zip",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "credit": "Kenney.nl"
+    }
+  }
+}
