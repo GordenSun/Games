@@ -1,0 +1,23 @@
+name: Validate static games
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - "cursor/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify bundled Kenney assets
+        run: python3 scripts/fetch_kenney_assets.py --verify
+      - name: Validate static site
+        run: node scripts/validate_static_site.mjs

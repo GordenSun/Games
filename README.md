@@ -52,6 +52,9 @@ node scripts/validate_static_site.mjs
 
 ## 部署
 
-仓库包含 GitHub Pages Actions 工作流：`.github/workflows/deploy-pages.yml`。
+仓库包含两个 Actions 工作流：
+
+- `.github/workflows/validate.yml`：在 PR、`main` 和 `cursor/**` 分支推送时校验素材与静态站点。
+- `.github/workflows/deploy-pages.yml`：在 `main` 分支推送或手动运行时部署到 GitHub Pages。
 
 推送到配置的分支后，工作流会上传整个静态站点并部署到 GitHub Pages。若仓库尚未启用 Pages，请在 GitHub 仓库的 **Settings → Pages** 中选择 **GitHub Actions** 作为发布来源，然后重新运行工作流。

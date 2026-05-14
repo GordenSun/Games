@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - "cursor/-bc-f7f8ad27-b114-4599-a252-9f0bbe8c6338-5e8d"
   workflow_dispatch:
 
 permissions:
